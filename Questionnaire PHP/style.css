@@ -1,0 +1,109 @@
+body
+{
+  font-family: "Lato", "sans-serif";
+  margin: 70px 0px ;
+  background: #0069d6 ;
+}
+
+.divider
+{
+  height: 2px ;
+  width: 130px ;
+  background: #ffa500;
+  margin: 0 auto;
+}
+
+.heading
+{
+  text-align: center;
+  margin-bottom: 60px ;
+}
+
+h2
+{
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #fff;
+}
+
+#contact-form
+{
+  font-size: 20px;
+  background: #fff;
+  padding: 40px;
+  border-radius: 10px;
+}
+
+.row
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.blue
+{
+  color: #0069d6;
+}
+
+.form-control
+{
+  /* height: 50px;
+  font-size: 18px; */
+  display: block;
+  width: 100%;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  box-sizing: border-box;
+}
+
+.comments
+{
+  font-style: italic;
+  font-size: 18px;
+  color: #d82c2e ;
+  height: 25px;
+ }
+
+ #contact-form input[type=submit]
+ {
+  margin: 40px auto;
+  display: block;
+ }
+
+ .button1
+ {
+  border: 1px solid #ddd;
+  background: #ffa500;
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 18px;
+  border-radius: 5px;
+ }
+ .button1:hover
+ {
+  background: #0069d6;
+  border: #ffa500;
+  transition: 0.6s;
+ }
+
+ .form-center
+ {
+  text-align: center;
+ }
+
+ .cards
+ {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+ }
+
+ .heading
+ {
+  color: white;
+ }
